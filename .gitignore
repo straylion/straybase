@@ -4,3 +4,4 @@ PythonWorkDir
 **/*.pyc
 .settings
 .project
+.classpath
