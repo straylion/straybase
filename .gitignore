@@ -1,0 +1,6 @@
+build
+target
+PythonWorkDir
+**/*.pyc
+.settings
+.project
