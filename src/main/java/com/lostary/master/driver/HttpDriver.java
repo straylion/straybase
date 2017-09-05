@@ -286,8 +286,8 @@ public class HttpDriver {
 				logger.info("     " + header.getName() + ":" + header.getValue());
 			}
 			if (httpResult != null) {
-				logger.info("Status Code锛�" + httpResult.getStatuscode());
-				logger.info("Body锛�" + httpResult.getsBody());
+				logger.info("Status Code: " + httpResult.getStatuscode());
+				logger.info("Body: " + httpResult.getsBody());
 			}
 		}
 	}
