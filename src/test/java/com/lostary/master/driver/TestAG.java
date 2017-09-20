@@ -25,7 +25,7 @@ public class TestAG {
 		int count4 = 0;
 		int count5 = 0;
 		for (int i = 0; i < 1000; i++) {
-			HttpDriver driver = new HttpDriver(true);
+			HttpDriver driver = new HttpDriver();
 			driver.setUri("http://10.2.1.46/status");
 			driver.setHeader("Host", "test.lyf.com");
 			try {
