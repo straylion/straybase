@@ -9,7 +9,7 @@ package lintcode;
  */
 public class StringStr {
 
-	public static int strStr(String source, String target) {
+	public int strStr(String source, String target) {
 		if (source != null && target != null && source.contains(target)) {
 			return source.indexOf(target);
 		} else {
