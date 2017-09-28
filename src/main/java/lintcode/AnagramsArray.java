@@ -9,7 +9,7 @@ import java.util.List;
  * 如果一个字符串是乱序字符串，那么他存在一个字母集合相同，但顺序不同的字符串也在S中。
  * 
  */
-public class Anagrams {
+public class AnagramsArray {
 
 	public List<String> anagramsArray(String[] strs) {
 		HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();

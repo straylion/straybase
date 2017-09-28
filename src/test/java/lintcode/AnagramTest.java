@@ -3,15 +3,15 @@ package lintcode;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AnagramSolutionTest {
+public class AnagramTest {
 	
-	AnagramSolution as = new AnagramSolution();
+	Anagram an = new Anagram();
 
 	@Test
 	public void test01() {
 		String a = null;
 		String b = null;
-		Assert.assertEquals(false, as.anagram(a, b));
+		Assert.assertEquals(false, an.anagram(a, b));
 	}
 	
 }

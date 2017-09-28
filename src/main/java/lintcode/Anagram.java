@@ -6,7 +6,7 @@ package lintcode;
  * @author stray
  *
  */
-public class AnagramSolution {
+public class Anagram {
 
 	/**
 	 * 
