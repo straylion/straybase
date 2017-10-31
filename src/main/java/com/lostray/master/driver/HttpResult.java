@@ -1,4 +1,4 @@
-package com.lostary.master.driver;
+package com.lostray.master.driver;
 
 public class HttpResult {
 	private int statuscode;

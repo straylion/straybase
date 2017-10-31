@@ -1,4 +1,4 @@
-package com.lostary.master.driver;
+package com.lostray.master.driver;
 
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
