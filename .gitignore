@@ -6,3 +6,4 @@ PythonWorkDir
 .settings
 .project
 .classpath
+bin
