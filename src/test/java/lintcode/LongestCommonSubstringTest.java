@@ -11,6 +11,12 @@ public class LongestCommonSubstringTest {
 	@Test
 	public void test01() {
 		System.out.println(lcs.longestCommonSubstring(A, B));
+		System.out.println(lcs.longestCommonSubstring1(A, B));
+	}
+	
+	@Test 
+	public void test02() {
+		System.out.println(A.substring(0, A.length()));
 	}
 	
 }
