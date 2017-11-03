@@ -1,7 +1,9 @@
-package lintcode;
+package lintcode.strings;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import lintcode.strings.Anagram;
 
 public class AnagramTest {
 	

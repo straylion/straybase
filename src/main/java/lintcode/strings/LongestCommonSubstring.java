@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.strings;
 
 public class LongestCommonSubstring {
 

@@ -1,4 +1,4 @@
-package lintcode;
+package lintcode.strings;
 
 /**
  * 对于一个给定的 source 字符串和一个 target 字符串，你应该在 source 字符串中找出 target
