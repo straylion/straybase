@@ -359,18 +359,6 @@ public class HttpDriver {
 		return tmp;
 	}
 
-	public static void main(String[] args) {
-		try {
-			HttpDriver httpDriver = new HttpDriver();
-			httpDriver.setUri("http://10.2.1.47:8001/cache");
-			HttpResult httpResult = httpDriver.delete();
-			System.out.println(httpResult.getsBody());
-			System.out.println(httpResult.getStatuscode());
-		} catch (IOException ie) {
-			ie.printStackTrace();
-		}
-	}
-
 	public void setHeader(Map<String, String> header) {
 		this.header = header;
 	}
